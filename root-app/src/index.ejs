@@ -38,7 +38,10 @@
       {
         "imports": {
           "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
-          "@faramin/styleguide": "//localhost:9004/faramin-styleguide.js"
+          "react": "https://cdn.jsdelivr.net/npm/react@17.0.1/umd/react.production.min.js",
+          "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.1/umd/react-dom.production.min.js",
+          "@faramin/styleguide": "//localhost:9004/faramin-styleguide.js",
+          "@faramin/auth": "//localhost:9100/faramin-auth.js"
         }
       }
     </script>
@@ -56,12 +59,9 @@
       {
         "imports": {
           "@faramin/root-config": "//localhost:9000/faramin-root-config.js",
-          "@faramin/styleguide": "//localhost:9004/faramin-styleguide.js",
           "@faramin/navbar": "//localhost:9001/faramin-navbar.js",
           "@faramin/home": "//localhost:9002/faramin-home.js",
-          "@faramin/dashboard": "//localhost:9003/faramin-dashboard.js",
-          "react": "https://cdn.jsdelivr.net/npm/react@17.0.1/umd/react.production.min.js",
-          "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.1/umd/react-dom.production.min.js"
+          "@faramin/dashboard": "//localhost:9003/faramin-dashboard.js"
         }
       }
     </script>
@@ -85,7 +85,6 @@
   <body>
     <script>
       System.import("@faramin/root-config");
-      // System.import("@faramin/styleguide");
     </script>
     <import-map-overrides-full
       show-when-local-storage="devtools"
