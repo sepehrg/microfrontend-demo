@@ -46,6 +46,7 @@
   "dependencies": {
     "@types/jest": "^26.0.16",
     "@types/systemjs": "^6.1.0",
+    "antd": "^4.16.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
