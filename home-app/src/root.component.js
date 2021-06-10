@@ -16,7 +16,8 @@ export default function Root(props) {
       </section>
       <Button onClick={() => login("user", "pass")}>login</Button>
       <Button onClick={() => logout()}>logout</Button>
-      <Input></Input>
+      <br />
+      <Input value={"Hello material ui"}></Input>
     </>
   );
 }

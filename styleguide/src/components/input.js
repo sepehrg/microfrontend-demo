@@ -1,7 +1,8 @@
 import React from "react";
+import { Input as Inp } from "@material-ui/core";
 
 const Input = (props) => {
-  return <input type="text"></input>;
+  return <Inp type="text" value={props.value}></Inp>;
 };
 
 export default Input;
